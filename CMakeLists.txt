@@ -16,7 +16,7 @@ FetchContent_MakeAvailable(nosboost_sdk)
 FetchContent_Declare(
         imgui
         GIT_REPOSITORY https://github.com/ocornut/imgui.git
-        GIT_TAG master
+        GIT_TAG 691b89baae95d56df42a59b031c9d19685b7ab2f
 )
 FetchContent_MakeAvailable(imgui)
 

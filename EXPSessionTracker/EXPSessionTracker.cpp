@@ -699,7 +699,7 @@ extern "C" {
             sessionTracker = nullptr;
         }
     }
-    __declspec(dllexport) __cdecl void ModTick(TLBSWidget* RootWidget, const TickContext tickContext) {
+    __declspec(dllexport) void __cdecl ModTick(TLBSWidget* RootWidget, const TickContext tickContext) {
         UpdateDisplay(RootWidget);
         if (!tickContext.isPlayerLoaded) {
             if (sessionTracker->isVisible) {

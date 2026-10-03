@@ -379,7 +379,7 @@ namespace {
         expText =  Widget::Create<TEWLabel>(CachedHost);
         expText->textAlignment = 1;
         expText->pxPerLine = 120;
-        expText->x = 0;
+        expText->xPosition = 0;
         expText->rect = {47, 50, 167, 100};
         expText->SetText(L"0.00%(0.00%/h)");
 
@@ -389,7 +389,7 @@ namespace {
         axpText = Widget::Create<TEWLabel>(CachedHost);
         axpText->textAlignment = 1;
         axpText->pxPerLine = 120;
-        axpText->x = 0;
+        axpText->xPosition = 0;
         axpText->rect = {47, 87, 167, 137};
         axpText->SetText(L"0.00%(0.00%/h)");
 
@@ -399,7 +399,7 @@ namespace {
         healthPotText = Widget::Create<TEWLabel>(CachedHost);
         healthPotText->textAlignment = 3;
         healthPotText->pxPerLine = 30;
-        healthPotText->x = 0;
+        healthPotText->xPosition = 0;
         healthPotText->rect = {195, 130, 225, 160};
         healthPotText->SetText(L"0");
 
@@ -409,7 +409,7 @@ namespace {
         manaPotText = Widget::Create<TEWLabel>(CachedHost);
         manaPotText->textAlignment = 3;
         manaPotText->pxPerLine = 30;
-        manaPotText->x = 0;
+        manaPotText->xPosition = 0;
         manaPotText->rect = {230, 130, 260, 160};
         manaPotText->SetText(L"0");
 
@@ -419,7 +419,7 @@ namespace {
         petGAText = Widget::Create<TEWLabel>(CachedHost);
         petGAText->textAlignment = 3;
         petGAText->pxPerLine = 30;
-        petGAText->x = 0;
+        petGAText->xPosition = 0;
         petGAText->rect = {195, 175, 225, 205};
         petGAText->SetText(L"0");
 
@@ -429,7 +429,7 @@ namespace {
         partnerGAText = Widget::Create<TEWLabel>(CachedHost);
         partnerGAText->textAlignment = 3;
         partnerGAText->pxPerLine = 30;
-        partnerGAText->x = 0;
+        partnerGAText->xPosition = 0;
         partnerGAText->rect = {230, 175, 260, 205};
         partnerGAText->SetText(L"0");
 
